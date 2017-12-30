@@ -1,20 +1,17 @@
 # Site navigation links
 
-- title: 网页制作与设计
+ title: 网页制作与设计
   url: /Learn/
   excerpt: 做的不好，惭愧惭愧
   image: 2.jpg
-  
 title: 信息可视化作品
  +  url: /是有趣的/
  +  excerpt: 做过路过不要错过
  +  image: 3.jpg 
-
 title: 学习笔记
  +  url: /学到的东西/
  +  excerpt: 记记更健康
  +  image: 4.jpg
-
 +  title: 找我找我
  +  url: /contact/
  +  excerpt: 喜欢吗，喜欢就联系我
