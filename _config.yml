@@ -28,10 +28,6 @@ gems:
 owner:
   name:'maytowo'
   email:'841016032@qq.com'
-  twitter:
-  google:
-    ad-client:
-    ad-slot:
   bio:‘ maytowo 中大南方学生’
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
