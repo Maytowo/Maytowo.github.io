@@ -1,8 +1,8 @@
----
-layout: archive
-
-title: "见面 你好"
----
++---
+ +layout: default
+ +title:  "见面 你好"
+ +date:   2017-11-30 22:07:50 +0800
++---
 + 
 +
 +## 网新的自我介绍
