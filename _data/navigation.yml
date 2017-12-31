@@ -5,17 +5,21 @@
   excerpt: "有趣的图表哟"
   image: 2.jpg
 
+  
 - title: 作品集（web）
   url: /portfolio/
   excerpt: "学习中..."
   image: 3.jpg
 
-- title: 学习笔记<tebleau>
+  
+- title: <tebleau>笔记
   url: /_posts/infovis/
   excerpt: "记记更健康"
   image: 4.jpg
 
-- title: 学习笔记<web>
+  
+- title: <web>笔记
   url: /_posts/rwd/
-  excerpt: "联系我"
-  image: 5.jpg  
+  excerpt: "emmmm发量渐疏"
+  image: 5.jpg 
+  
