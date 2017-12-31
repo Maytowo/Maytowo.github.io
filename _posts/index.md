@@ -2,7 +2,7 @@
 layout: archive
 permalink: /
 title: "最新文章"
- <img src="https://maytowo.github.io/images/5" alt="" style="width: 50%" type="image/svg+xml">
+images= 5.jpg alt="" style="width: 50%" type="image/svg+xml"
 ---
 
 <div class="tiles">
