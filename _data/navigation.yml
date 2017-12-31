@@ -1,21 +1,21 @@
 # Site navigation links
 
-- title: 网页制作设计
-  url: /Learn/
-  excerpt: "Learning"
+- title: 信息可视化作品集
+  url: /infovis/
+  excerpt: "有趣的图表哟"
   image: 2.jpg
 
-- title: 信息可视化作品
-  url: /有趣的图表哟/
-  excerpt: "有趣的图表哟"
+- title: 作品集（web）
+  url: /portfolio/
+  excerpt: "学习中..."
   image: 3.jpg
 
-- title: 学习笔记
-  url: /学到的东西/
+- title: 学习笔记<tebleau>
+  url: /_posts/infovis/
   excerpt: "记记更健康"
   image: 4.jpg
 
-- title: Contact 
-  url: /contact/
+- title: 学习笔记<web>
+  url: /_posts/rwd/
   excerpt: "联系我"
   image: 5.jpg  
