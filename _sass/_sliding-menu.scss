@@ -37,7 +37,7 @@
   z-index: 20;
   box-sizing: border-box;
   &:hover {
-    background: #ffd4e2;
+    background: #D2E9FF;
   }
   transition: $sliding-menu-animation;
   &.slide {
@@ -142,7 +142,6 @@
     }
     a:hover .teaser {
       opacity: 1;
-	  border:3px solid $#ffd4e2
     }
     .title {
       display: block;
@@ -164,9 +163,9 @@
         @include font-size(16,no);
       }
     }
-   }
+  }
   .title:hover,.excerpt:hover,.teaser:hover{  
-      color: #ffd4e2; 
+      color: #D2E9FF; 
   } 
   .sub-menu-item > li a {
     display: block;
