@@ -28,7 +28,8 @@ gems:
 owner:
   name: maytowo
   email: 841016032@qq.com
-  bio: maytowo 中大南方学生
+  avatar:  2.jpg
+  bio: 本人是一只小可爱
 
 include:
   - .htaccess
