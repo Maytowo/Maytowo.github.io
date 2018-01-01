@@ -10,7 +10,7 @@ body {
 	font-family: $base-font;
 	color: $text-color;
     background-image: 
-      linear-gradient(rgba(255, 204, 153, 1.0), rgba(255, 204, 153, 0.8)), 
+      linear-gradient(rgba(255, 232, 209, 1.0), rgba(255, 232, 209, 1.0)), 
       url('https://maytowo.github.io//images/4.jpg');
 	@include font-size(16);
 }
