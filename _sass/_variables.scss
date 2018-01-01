@@ -19,10 +19,16 @@ $border-radius               	: 3px;
 
 /*
    Color variables
+   Background : Blue #003d79  http://encycolorpedia.cn/003d79 
+   Aliceblue  #f0f8ff 
+   text-color: white
    ========================================================================== */
 
 $white                        : #fff;
 $black                        : #000;
+$blue                       : #003D79; 
+$Aliceblue                  : #f0f8ff; 
+$blue                       : #D2E9FF;
 
 $body-color                  	: #ebebeb;
 
@@ -34,7 +40,7 @@ $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $link-color                  	: #222;
 
-$primary-color               	: $black;
+$primary-color               	: #003D79;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
