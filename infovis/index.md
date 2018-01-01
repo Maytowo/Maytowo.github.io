@@ -1,11 +1,16 @@
 ---
 layout: archive
-permalink: /
-title: "最新文章"
----
-
+title: "信息可视化作品集"
+modified:
+excerpt: "Tleablu"
+tags: []
+image: 
+  feature: 300x200.gif
+  teaser:
+ ---
+ 在此展示网页设计与制作内容简绍及思考
 <div class="tiles">
-{% for post in site.posts %}
-	{% include post-grid.html %}
+{% for post in site.categories.infovis %}
+  {% include post-grid.html %}
 {% endfor %}
-</div><!-- /.tiles -->
+</div>
