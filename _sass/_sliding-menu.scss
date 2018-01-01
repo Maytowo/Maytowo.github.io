@@ -37,7 +37,7 @@
   z-index: 20;
   box-sizing: border-box;
   &:hover {
-    background: #D2E9FF;
+    background: #ffd4e2;
   }
   transition: $sliding-menu-animation;
   &.slide {
@@ -165,7 +165,7 @@
     }
   }
   .title:hover,.excerpt:hover,.teaser:hover{  
-      color: #D2E9FF; 
+      color: #ffd4e2; 
   } 
   .sub-menu-item > li a {
     display: block;
