@@ -6,41 +6,36 @@
    Typography variables
    ========================================================================== */
 
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
-$heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
+$base-font                   	: Kai,Kaiti SC,KaiTi,DFKai-SB,BiauKai,\\6977\4F53,\\6977\4F53_GB2312,Songti SC,Georgia,Times,"Times New Roman",serif;
+$heading-font                	: YouYuan,\\5E7C\5706,幼圆,"Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
 $alt-font                    	: $heading-font;
 
 $doc-font-size               	: 16;
-$doc-line-height             	: 24;
+$doc-line-height             	: 28;
 
 $border-radius               	: 3px;
 
 /*
    Color variables
-   Background : Blue #003d79  http://encycolorpedia.cn/003d79 
-   Aliceblue  #f0f8ff 
-   text-color: white
    ========================================================================== */
 
-$white                        : #fff;
+$white                        : #fff; 
 $black                        : #000;
-$blue                       : #003D79; 
-$Aliceblue                  : #f0f8ff; 
-$blue                       : #D2E9FF;
-
+$CornflowerBlue               : #6495ED;
+$cream                        : #FFFACD;
 $body-color                  	: #ebebeb;
 
 $text-color                  	: #313130;
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                  	: #003D79;
+$base-color                  	: $CornflowerBlue;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $link-color                  	: #222;
 
-$primary-color               	: #003D79;
+$primary-color               	: $CornflowerBlue;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
@@ -86,15 +81,15 @@ $form-font-size              	: $doc-font-size;
    Sliding menu navigation variables
    ========================================================================== */
 
-$sliding-menu-border-color	 	 : $black;
-$sliding-menu-background 		   : $black;
-$sliding-menu-color 	 		     : $white;
-$sliding-menu-background-hover : $black;
-$sliding-menu-color-hover	 	   : $Aliceblue;
+$sliding-menu-border-color	 	   : $CornflowerBlue;
+$sliding-menu-background 		   : $CornflowerBlue;
+$sliding-menu-color 	 		   : $white;
+$sliding-menu-background-hover     : $CornflowerBlue;
+$sliding-menu-color-hover	 	   : $cream;
 $sliding-menu-border   			   : 1px solid $sliding-menu-border-color;
-$button-size		         	     : 30px;
-$transition						         : 0.3s; // increase this to see the transformations in slow-motion
-$sliding-menu-animation        : all 500ms cubic-bezier(.86,.01,.77,.78);
+$button-size		         	   : 30px;
+$transition						   : 0.3s; // increase this to see the transformations in slow-motion
+$sliding-menu-animation            : all 500ms cubic-bezier(.86,.01,.77,.78);
 
 /*
    Badge variables
