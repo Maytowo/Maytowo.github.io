@@ -2,7 +2,7 @@
 layout: archive
 title: "信息可视化作品集"
 modified:
-excerpt: "Tleablu"
+excerpt: "Tableau"
 tags: []
 image: 
   feature: 300x200.gif
