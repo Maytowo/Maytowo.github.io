@@ -4,6 +4,9 @@
 
 /*
    Typography variables
+ +  結合簡書字型設置及常用之中文字型
+ +   http://www.jb51.net/css/67658.html
+ +   行距中文調大一點
    ========================================================================== */
 
 $base-font                   	: Kai,Kaiti SC,KaiTi,DFKai-SB,BiauKai,\\6977\4F53,\\6977\4F53_GB2312,Songti SC,Georgia,Times,"Times New Roman",serif;
@@ -19,28 +22,28 @@ $border-radius               	: 3px;
 
 /*
    Color variables
-   Background : Light salmon pink／#FF9999  http://encycolorpedia.cn/003d79 
-   奶油色／Cream #fffdd0
-   text-color: white
+   Background : Oxford Blue #002147  http://encycolorpedia.cn/002147
+    奶油色／Cream #fffdd0
+    text-color: white
    ========================================================================== */
 
-$white                        : #fff;
-$Light salmon pink            : ##FF9999;
-$blue                       : #003D79; 
+$white                      : #fff;
+$oxfordblue                 : ##002147;
+$black                      : #000; 
 $Cream                      : #fffdd0; 
-$blue                       : #D2E9FF;
+$lemon                      : #fff700;
 
 $body-color                  	: #ffe8ed;
 
 $text-color                  	: #313130;
 $caption-color                : mix($white, $text-color, 25%);
 
-$base-color                  	: #FF9999;
+$base-color                  	: $oxfordblue;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
 $link-color                  	: #222;
 
-$primary-color               	: #FF9999;
+$primary-color               	: $oxfordblue;
 $success-color               	: #2ecc71;
 $warning-color               	: #f1c40f;
 $danger-color                	: #e74c3c;
@@ -86,13 +89,13 @@ $form-font-size              	: $doc-font-size;
    Sliding menu navigation variables
    ========================================================================== */
 
-$sliding-menu-border-color	 	 : $Light salmon pink;
-$sliding-menu-background 		   : $Light salmon pink;
-$sliding-menu-color 	 		     : $white;
-$sliding-menu-background-hover : $Light salmon pink;
-$sliding-menu-color-hover	 	   : $Cream;
-$sliding-menu-border   			   : 1px solid $sliding-menu-border-color;
-$button-size		         	     : 30px;
+$sliding-menu-border-color	 	 : $oxfordblue;
+$sliding-menu-background 		 : $oxfordblue;
+$sliding-menu-color 	 	     : $white;
+$sliding-menu-background-hover   : $oxfordblue;
+$sliding-menu-color-hover	 	 : $Cream;
+$sliding-menu-border   			 : 1px solid $sliding-menu-border-color;
+$button-size		         	 : 30px;
 $transition						         : 0.3s; // increase this to see the transformations in slow-motion
 $sliding-menu-animation        : all 500ms cubic-bezier(.86,.01,.77,.78);
 
